@@ -1,0 +1,10 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <RootNamespace>VCETODE.Core</RootNamespace>
+    <AssemblyName>VCETODE.Core</AssemblyName>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <!-- No additional platform-specific requirements here -->
+  </PropertyGroup>
+</Project>
