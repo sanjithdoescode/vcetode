@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <!-- Targeting .NET 7 with Windows 10 minimum build for WinUI 3 -->
+    <TargetFramework>net7.0-windows10.0.19041.0</TargetFramework>
+    <OutputType>WinExe</OutputType>
+    <UseWinUI>true</UseWinUI>
+    <RootNamespace>VCETODE.UI</RootNamespace>
+    <AssemblyName>VCETODE.UI</AssemblyName>
+    <ApplicationDefinition>MainWindow.xaml</ApplicationDefinition>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <!-- Enable Windows App SDK (WinUI 3) support -->
+    <EnableMsixTooling>true</EnableMsixTooling>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.WindowsAppSDK" Version="1.2.220821.1401" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\VCETODE.Core\VCETODE.Core.csproj" />
+    <ProjectReference Include="..\VCETODE.Intellisense\VCETODE.Intellisense.csproj" />
+    <ProjectReference Include="..\VCETODE.Plugins\VCETODE.Plugins.csproj" />
+    <ProjectReference Include="..\VCETODE.GitIntegration\VCETODE.GitIntegration.csproj" />
+    <ProjectReference Include="..\VCETODE.Terminal\VCETODE.Terminal.csproj" />
+    <ProjectReference Include="..\VCETODE.CompetitiveProgramming\VCETODE.CompetitiveProgramming.csproj" />
+  </ItemGroup>
+</Project>
