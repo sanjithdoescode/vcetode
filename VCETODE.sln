@@ -1,0 +1,54 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32922.545
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VCETODE.Core", "src\VCETODE.Core\VCETODE.Core.csproj", "{A0C8F50D-0D42-4F3B-8F50-111111111111}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VCETODE.UI", "src\VCETODE.UI\VCETODE.UI.csproj", "{B0C8F50D-0D42-4F3B-8F50-222222222222}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VCETODE.Intellisense", "src\VCETODE.Intellisense\VCETODE.Intellisense.csproj", "{C0C8F50D-0D42-4F3B-8F50-333333333333}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VCETODE.Plugins", "src\VCETODE.Plugins\VCETODE.Plugins.csproj", "{D0C8F50D-0D42-4F3B-8F50-444444444444}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VCETODE.GitIntegration", "src\VCETODE.GitIntegration\VCETODE.GitIntegration.csproj", "{E0C8F50D-0D42-4F3B-8F50-555555555555}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VCETODE.Terminal", "src\VCETODE.Terminal\VCETODE.Terminal.csproj", "{F0C8F50D-0D42-4F3B-8F50-666666666666}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VCETODE.CompetitiveProgramming", "src\VCETODE.CompetitiveProgramming\VCETODE.CompetitiveProgramming.csproj", "{10C8F50D-0D42-4F3B-8F50-777777777777}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A0C8F50D-0D42-4F3B-8F50-111111111111}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0C8F50D-0D42-4F3B-8F50-111111111111}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0C8F50D-0D42-4F3B-8F50-111111111111}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0C8F50D-0D42-4F3B-8F50-111111111111}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B0C8F50D-0D42-4F3B-8F50-222222222222}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0C8F50D-0D42-4F3B-8F50-222222222222}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0C8F50D-0D42-4F3B-8F50-222222222222}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0C8F50D-0D42-4F3B-8F50-222222222222}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C0C8F50D-0D42-4F3B-8F50-333333333333}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0C8F50D-0D42-4F3B-8F50-333333333333}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0C8F50D-0D42-4F3B-8F50-333333333333}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0C8F50D-0D42-4F3B-8F50-333333333333}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D0C8F50D-0D42-4F3B-8F50-444444444444}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0C8F50D-0D42-4F3B-8F50-444444444444}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0C8F50D-0D42-4F3B-8F50-444444444444}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0C8F50D-0D42-4F3B-8F50-444444444444}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E0C8F50D-0D42-4F3B-8F50-555555555555}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E0C8F50D-0D42-4F3B-8F50-555555555555}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E0C8F50D-0D42-4F3B-8F50-555555555555}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E0C8F50D-0D42-4F3B-8F50-555555555555}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F0C8F50D-0D42-4F3B-8F50-666666666666}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F0C8F50D-0D42-4F3B-8F50-666666666666}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F0C8F50D-0D42-4F3B-8F50-666666666666}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F0C8F50D-0D42-4F3B-8F50-666666666666}.Release|Any CPU.Build.0 = Release|Any CPU
+		{10C8F50D-0D42-4F3B-8F50-777777777777}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10C8F50D-0D42-4F3B-8F50-777777777777}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10C8F50D-0D42-4F3B-8F50-777777777777}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10C8F50D-0D42-4F3B-8F50-777777777777}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
