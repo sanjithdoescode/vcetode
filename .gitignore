@@ -1,0 +1,58 @@
+# Ignore the build results
+bin/
+obj/
+
+# Ignore .NET-specific files
+.vs/
+.vscode/
+.idea/
+
+# User-specific files
+*.user
+*.userosscache
+*.suo
+*.userprefs
+
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+
+# Windows Installer logs
+*.log
+
+# Tye - temporary folder for Tye application orchestrator
+.tye/
+
+# ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+
+# JetBrains Rider project files
+.idea/
+
+# ASP.NET Core project files
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Windows Installer Files
+*.cab
+*.msi
+*.msm
+*.msp
+
+# NPM package files
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+
+# VS Code settings
+.vscode/
